@@ -1,0 +1,45 @@
+.header__inner {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px;
+}
+.header__logo {
+    width: 20%;
+    text-align: left;
+}
+.header__logo img{
+    width: 70px; height: 70px;
+}
+.header__menu {
+    /* background-color: #ccc; */
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "NexonLv1Gothic";
+}
+.header__menu ul {}
+.header__menu li {
+    display: inline;
+}
+.header__menu li a {
+    padding: 13px 20px;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+.header__menu li a:hover {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.header__member {
+    width: 20%;
+    text-align: right;
+}
+.header__member img {
+    width: 30px; height: 30px;
+    margin-right: 20px;
+}

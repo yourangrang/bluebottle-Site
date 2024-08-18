@@ -1,0 +1,74 @@
+.motion__inner {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.motionType__wrap.show .img {
+    left: 80%;
+    transition: all 0.8s ease-in-out;
+}
+.motion__inner .motion__image {
+    position: relative;
+    width: 60%;
+}
+.motion__image .circle {
+    width: 598px; height: 598px;
+    border-radius: 50%;
+    background-color: #00A9E0;
+} 
+.motion__image .img {
+    background-image: url(../img/bbc__can001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 373px;
+    height: 424px;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-60%, -50%);
+} 
+.motion__inner .motion__desc {
+    width: 40%;
+    padding: 100px 0;
+}
+.motion__desc h2 {
+    font-size: 70px;
+    color: #00A9E0;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "gmarket";
+    margin-bottom: 20px;
+}
+.motion__desc p {
+    font-size: 18px;
+    font-family: 'NexonLv1Gothic';
+    color: #747474;
+    margin-bottom: 30px;
+    word-break: keep-all;
+}
+.motion__desc p em {
+    display: block;
+}
+.motion__desc h3 {
+    color: #555;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: 'NexonLv1Gothic';
+}
+.motion__desc h3 span {
+    display: inline-block;
+    color: #00A9E0;
+    margin-bottom: 30px;
+}
+.motion__desc .btn {
+    text-align: right;
+}
+.motion__desc .btn a {
+    background-color: #00A9E0;
+    padding: 7px 12px;
+    color: #fff;
+    font-family: "gmarket";
+}
+

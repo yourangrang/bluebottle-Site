@@ -1,0 +1,31 @@
+
+.bannerType__wrap {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/bbc__banner01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner__inner {
+    width: 1160px; height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner__inner .banner__event{
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+}
+.banner__inner h2 {
+    font-family: "gmarket";
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.banner__inner p {
+    font-size: 22px;
+    font-family: 'NexonLv1Gothic';
+}

@@ -1,0 +1,110 @@
+.swiper-slide .desc {
+    font-family: "gmarket";
+    width: 1160px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    position: relative;
+    z-index: 10;
+}
+.swiper-slide .desc h3 {
+    font-size: 100px;
+    font-weight: 700;
+    color: #00A9E0;
+    line-height: 1;
+    width: 500px;
+    margin-bottom: 16px;
+}
+.swiper-slide .desc p {
+    width: 300px;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    word-break: keep-all;
+    margin-bottom: 45px;
+}
+.swiper-slide.ss2 .desc {
+    margin-top: 18%;
+}
+.swiper-slide.ss2 .desc h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #00A9E0;
+    line-height: 1;
+    width: 600px;
+    margin-bottom: 16px;
+}
+.swiper-slide.ss2 .desc p {
+    font-size: 20px;
+    width: 400px;
+}
+.swiper-slide.ss3 .desc {
+    margin-top: 18%;
+}
+.swiper-slide.ss3 .desc h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    width: 500px;
+    margin-bottom: 16px;
+}
+.swiper-slide.ss3 .desc p {
+    font-size: 20px;
+    width: 400px;
+    font-weight: 400;
+}
+.swiper-slide.ss3 .desc p {
+    color: #fff;
+}
+.swiper-slide .desc span {
+    display: block;
+}
+.swiper-slide .desc .btn a {
+    display: inline-block;
+    background-color: #00A9E0;
+    padding: 6px 12px;
+    color: #fff;
+}
+.swiper-slide .desc__img {
+    width: 500px;
+    height: 360px;
+    background-image: url(../img/bbc__desc01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 70px; top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+.slider__wrap.show .desc__img {
+    animation: shake 1s  ease-in;
+}
+
+@keyframes shake {
+    0% {
+        top: 20%;
+        transform: rotate(0deg);
+    }
+    25% {
+        top: 20%;
+        transform: rotate(10deg);
+    }
+    50% {
+        top:20%;
+        transform: rotate(0deg);
+    }
+    75% {
+        top:20%;
+        transform: rotate(5deg);
+    }
+    100% {
+        top: 20%;
+        transform: rotate(0deg);
+    }
+  }
+
+/* 슬라이드 이미지 */
+.slider {width: 100%; height: 580px;}
+.slider .ss1 {background: url(../img/sl__01.jpg) no-repeat center center; background-size: cover;}
+.slider .ss2 {background: url(../img/bbc__slide04.jpg) no-repeat center center; background-size: cover;}
+.slider .ss3 {background: url(../img/sl__03.jpg) no-repeat center center; background-size: cover;}
+

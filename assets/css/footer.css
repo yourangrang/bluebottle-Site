@@ -1,0 +1,94 @@
+.footer__wrap {
+    background-color: #333333;
+    position: relative;
+}
+.footer__wrap .line {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    top: 290px;
+    font-family: 'NexonLv1Gothic';
+}
+.footer__inner {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 100px 30px;
+    color: #fff;
+}
+.footer__inner .footer__top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 50px;
+}
+.footer__top .footer__menu {
+    line-height: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__menu div {
+    width: 30%;
+}
+.footer__menu .menu__title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer__menu ul li {padding-bottom: 10px;}
+.footer__menu ul li a {
+    font-size: 14px;
+}
+.footer__top .footer__brand {
+    width: 50%;
+    position: relative;
+}
+.footer__brand .logo__img {
+    background-image: url(../img/bbc_logo_400x400.webp);
+    background-size: cover;
+    width: 60px; height: 60px;
+    right: 0; top: 0;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+}
+.footer__brand .social__list {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footer__brand h2 {
+    width: 540px;
+    font-size: 12px;
+}
+.social__list ul {
+    display: flex;
+}
+.social__list li {
+    width: 42px; height: 42px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+.social__list li.s1 {background-position: -41px -6px;}
+.social__list li.s2 {background-position: -83px -6px}
+.social__list li.s3 {background-position: -124.5px -6px}
+.social__list li.s4 {background-position: -167px -6px}
+.icon {background-image: url(../img/sns__icon.svg);}
+
+.footer__inner .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__bottom .copyright___list {
+    font-size: 14px;
+    width: 50%
+}
+.copyright___list ul {
+    display: flex;
+}
+.copyright___list ul li {
+    padding-right: 30px;
+}
+.footer__bottom .copyright__right {
+    font-size: 11px;
+    text-align: right;
+    width: 50%
+}

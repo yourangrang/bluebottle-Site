@@ -1,0 +1,64 @@
+.imgText__inner {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.imgText__inner .title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.imgText__inner .best__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best__item .bestitem {
+    width: 30.33%;
+    position: relative;
+}
+.best__item .bestitem__img__wrap {
+    width: 352px;
+    height: 305px;
+    /* background-color: #d9d9d9; */
+    margin-bottom: 20px;
+    position: relative;
+}
+.best__item .img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+.img.e {background-image: url(../img/bbc__bestitem1.png); width: 220px; height: 194px;  bottom: 25px;  left: 54%;}
+.img.f {background-image: url(../img/bbc__bes.png); width: 250px; height: 280px; }
+.img.g {background-image: url(../img/bbc__best3.png); width: 200px; height: 277px;}
+
+.bestitem:hover .img.e {background-image: url(../img/bbc__best01.png); width: 319px; height: 254px; bottom: 0px;}
+.bestitem:hover .img.f {background-image: url(../img/bbc__best02.png); width: 200px; height: 228px; }
+.bestitem:hover .img.g {background-image: url(../img/bbc__best03.png); width: 233px; height: 228px;}
+
+.best__item .bestitem__desc {
+    text-align: center;
+}
+.best__item .bestitem__name {
+    font-size: 22px;
+    margin-bottom: 10px
+}
+.best__item p {
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 30px
+}
+.imgText__inner .btn {
+    text-align: center;
+}
+.imgText__inner .btn a {
+    background-color: #00A9E0;
+    padding: 7px 12px;
+    color: #fff;
+    font-family: "gmarket";
+}

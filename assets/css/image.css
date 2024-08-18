@@ -1,0 +1,56 @@
+.image__inner {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.image__inner .title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.image__inner .instant__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instant__item .item {
+    width: 275px;
+    position: relative;
+}
+.instant__item .item__img__wrap {
+    width: 275px;
+    height: 223px;
+    /* background-color: #d9d9d9; */
+    margin-bottom: 20px;
+    position: relative;
+}
+.instant__item .img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+.img.a {background-image: url(../img/bbc_cic01.png); width: 135px; height: 183px;}
+.img.b {background-image: url(../img/bbc_mc01.png); width: 165px; height: 178px; }
+.img.c {background-image: url(../img/bbc__stick01.png); width: 175px; height: 177px;}
+.img.d {background-image: url(../img/bbc__nora01.png); width: 120px; height: 181px;}
+
+.item:hover .img.a {background-image: url(../img/bbc_ac01.png); width: 138px; height: 148px;}
+.item:hover .img.b {background-image: url(../img/bbc__mc02.png); width: 200px; height: 186px; }
+.item:hover .img.c {background-image: url(../img/bbc__stick02.png); width: 175px; height: 177px;}
+.item:hover .img.d {background-image: url(../img/bbc__nora02.png); width: 174px; height: 211px;}
+
+.instant__item .item__desc {
+    text-align: center;
+}
+.instant__item .item__name {
+    font-size: 18px;
+    margin-bottom: 10px
+}
+.instant__item p {
+    color: #888;
+    margin-bottom: 30px
+}
